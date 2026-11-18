@@ -1,0 +1,5 @@
+    ~~~~^^
+  File "/home/claude/AITR_Lab02_Project/starter_ai_code/evaluate.py", line 33, in main
+    raise ValueError(f"{len(unknown)} ranked query-paper pairs lack relevance labels; resolve before scoring")
+ValueError: 4959 ranked query-paper pairs lack relevance labels; resolve before scoring
+exit=1

@@ -1,0 +1,7 @@
+Wrote per-query metrics to /tmp/starter_metrics.csv
+These are computed only from supplied labels; audit label completeness before interpreting.
+
+precision_at_k                         vs P       max|diff| over 54 queries = 0.00e+00
+recall_at_k                            vs R_all   max|diff| over 54 queries = 8.33e-17
+essential_post_cutoff_recall_at_k      vs R_post  max|diff| over 54 queries = 8.33e-17
+ndcg_at_k                              vs nDCG    max|diff| over 54 queries = 9.02e-17

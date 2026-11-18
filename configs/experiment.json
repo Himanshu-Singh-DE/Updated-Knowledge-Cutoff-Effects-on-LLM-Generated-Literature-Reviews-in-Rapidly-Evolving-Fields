@@ -1,0 +1,76 @@
+{
+ "frozen_on": "2026-11-14, before any retrieval or evaluation run",
+ "corpus": {
+  "source": "ACL Anthology XML",
+  "min_year": 2018,
+  "max_year": 2025,
+  "require_abstract": true,
+  "index_fields": [
+   "title",
+   "abstract"
+  ]
+ },
+ "nominal_cutoff_T": "2023-07-01",
+ "robustness_cutoffs": [
+  "2022-07-01",
+  "2024-07-01"
+ ],
+ "t_ref": "2025-12-01",
+ "tokenizer": "lowercase, regex [a-z0-9]+ (same as starter retrieval.py); no stemming, no stopword removal",
+ "bm25": {
+  "variant": "Okapi BM25 (Robertson/Lucene-style idf=log(1+(N-n+0.5)/(n+0.5)))",
+  "k1": 0.9,
+  "b": 0.4
+ },
+ "candidate_pool_N": 1000,
+ "methods": [
+  "BM25",
+  "TFIDF",
+  "RecencyOnly",
+  "DateFilter",
+  "BM25+Decay"
+ ],
+ "decay": {
+  "form": "score_bm25 * 2^(-age_months/h)",
+  "h_grid_months": [
+   3,
+   6,
+   12,
+   24,
+   48,
+   96,
+   "inf"
+  ]
+ },
+ "query_inclusion": {
+  "min_relevant": 8
+ },
+ "active_query_rule": "query has >= 3 relevant papers dated >= T (post-cutoff); only active queries enter RQ1",
+ "split": {
+  "unit": "source list (all queries from one curated list stay together)",
+  "tuning_fraction_of_lists": 0.3,
+  "seed": 2026
+ },
+ "selection_rule": "choose h maximising mean R_post@20 on TUNING active queries subject to mean nDCG@20(all relevant) >= BM25 tuning mean - 0.02; ties -> larger h",
+ "primary_metric": "R_post@20 = fraction of a query's post-cutoff relevant papers retrieved in top 20 (retrieval-stage temporal coverage ratio)",
+ "secondary_metrics": [
+  "nDCG@20 (binary, all relevant)",
+  "R_pre@20 (pre-cutoff relevant recall)",
+  "P@20",
+  "R_post@k for k in 10,50,100",
+  "latency ms/query"
+ ],
+ "success_threshold": "mean paired gain in R_post@20 >= 0.05 absolute on TEST active queries with 95% bootstrap CI excluding 0, AND mean nDCG@20 drop <= 0.02",
+ "uncertainty": {
+  "bootstrap_resamples": 10000,
+  "bootstrap_seed": 2026,
+  "paired_test": "Wilcoxon signed-rank (two-sided), reported as descriptive support only"
+ },
+ "relevance": "binary: paper appears in the curated list/section (exact normalised title match); unlisted papers treated as non-relevant",
+ "k_values": [
+  10,
+  20,
+  50,
+  100
+ ]
+}

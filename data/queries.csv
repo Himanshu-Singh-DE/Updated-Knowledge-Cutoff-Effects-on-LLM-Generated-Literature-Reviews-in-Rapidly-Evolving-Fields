@@ -1,0 +1,55 @@
+query_id,query
+q01,knowledge editing for large language models
+q02,evaluating hallucination in large language models
+q03,mitigating hallucination in large language models
+q04,sources and causes of hallucination in large language models
+q05,evaluation of large language models
+q06,continual learning for large language models
+q07,attribution and citation generation in large language models
+q08,large language models for scientific discovery
+q09,reasoning with language model prompting
+q10,reasoning in large language models
+q11,chain-of-thought prompting
+q12,in-context learning
+q13,instruction tuning for language models
+q14,self-correction of large language models
+q15,knowledge conflicts in large language models
+q16,large language model based agents
+q18,code benchmarks for large language models
+q19,multimodal large language models
+q20,retrieval-augmented generation methods
+q21,retrieval-augmented generation for code
+q22,retrieval-augmented generation for knowledge-intensive tasks
+q23,retrieval-augmented text generation
+q24,long-context benchmarks for large language models
+q25,KV cache compression for long-context inference
+q26,prompt and context compression for long inputs
+q27,position encoding and length extrapolation
+q28,efficient long chain-of-thought reasoning
+q29,efficient attention for long sequences
+q30,long-context continual pretraining and fine-tuning
+q31,language model as a service and black-box tuning
+q32,visual question answering
+q33,image captioning
+q34,vision-language representation learning
+q35,knowledge-grounded dialogue
+q36,dialogue evaluation
+q37,empathetic and emotional support dialogue
+q38,persona-based personalized dialogue
+q39,task-oriented dialogue systems
+q40,open-domain dialogue generation
+q41,conversational recommender systems
+q42,multimodal dialogue grounded in vision and embodiment
+q43,proactive and target-oriented dialogue
+q44,decoding algorithms for text generation
+q45,neural machine translation
+q46,pre-trained language models
+q47,textual adversarial attack and defense
+q48,event extraction
+q49,neural relation extraction
+q50,machine reading comprehension
+q51,legal artificial intelligence
+q52,generative knowledge graph construction
+q53,parameter-efficient fine-tuning and delta tuning
+q54,prompt-based learning and prompt tuning
+q55,knowledge representation learning

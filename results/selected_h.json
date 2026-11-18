@@ -1,0 +1,13 @@
+{
+ "h_star_months": Infinity,
+ "selected_on": [
+  "q06",
+  "q08",
+  "q10",
+  "q20",
+  "q31",
+  "q47",
+  "q54"
+ ],
+ "rule": "choose h maximising mean R_post@20 on TUNING active queries subject to mean nDCG@20(all relevant) >= BM25 tuning mean - 0.02; ties -> larger h"
+}

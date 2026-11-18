@@ -1,0 +1,213 @@
+{
+ "lists": [
+  {
+   "name": "BaptisteBlouin_EventExtractionPapers",
+   "dir": "BaptisteBlouin_EventExtractionPapers",
+   "repo": "https://github.com/BaptisteBlouin/EventExtractionPapers",
+   "commit": "01cad8bddc9d65eadf03b4855283e99767153069"
+  },
+  {
+   "name": "BradyFU_Awesome-Multimodal-Large-Language-Models",
+   "dir": "BradyFU_Awesome-Multimodal-Large-Language-Models",
+   "repo": "https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models",
+   "commit": "45b861a876e2b9f2dab8e13f69d5c19542ca02cc"
+  },
+  {
+   "name": "HITsz-TMG_awesome-llm-attributions",
+   "dir": "HITsz-TMG_awesome-llm-attributions",
+   "repo": "https://github.com/HITsz-TMG/awesome-llm-attributions",
+   "commit": "071599098157c2469915eda1ae1d6b558d4b8875"
+  },
+  {
+   "name": "HKUST-KnowComp_Awesome-LLM-Scientific-Discovery",
+   "dir": "HKUST-KnowComp_Awesome-LLM-Scientific-Discovery",
+   "repo": "https://github.com/HKUST-KnowComp/Awesome-LLM-Scientific-Discovery",
+   "commit": "eb19b47e0caa8502247efe8aefd66a7e1f2ea9c2"
+  },
+  {
+   "name": "HillZhang1999_llm-hallucination-survey",
+   "dir": "HillZhang1999_llm-hallucination-survey",
+   "repo": "https://github.com/HillZhang1999/llm-hallucination-survey",
+   "commit": "94e113c6478b18fff117acf083d67c1d64a4e55b"
+  },
+  {
+   "name": "MLGroupJLU_LLM-eval-survey",
+   "dir": "MLGroupJLU_LLM-eval-survey",
+   "repo": "https://github.com/MLGroupJLU/LLM-eval-survey",
+   "commit": "c3e19eb3454d6575d490d045dddf36cb0f85d1d5"
+  },
+  {
+   "name": "SinclairCoder_Instruction-Tuning-Papers",
+   "dir": "SinclairCoder_Instruction-Tuning-Papers",
+   "repo": "https://github.com/SinclairCoder/Instruction-Tuning-Papers",
+   "commit": "177274f7adbcd7bbd08f57a0e993de6f3af9d8c2"
+  },
+  {
+   "name": "THUNLP-MT_MT-Reading-List",
+   "dir": "THUNLP-MT_MT-Reading-List",
+   "repo": "https://github.com/THUNLP-MT/MT-Reading-List",
+   "commit": "b79517bcf9e0862366a1bebc9c03a6139c13ab8c"
+  },
+  {
+   "name": "Timothyxxx_Chain-of-ThoughtsPapers",
+   "dir": "Timothyxxx_Chain-of-ThoughtsPapers",
+   "repo": "https://github.com/Timothyxxx/Chain-of-ThoughtsPapers",
+   "commit": "e0d02c0a0f64decdab0bbe2ce8de071f54ae4ce6"
+  },
+  {
+   "name": "Wang-ML-Lab_llm-continual-learning-survey",
+   "dir": "Wang-ML-Lab_llm-continual-learning-survey",
+   "repo": "https://github.com/Wang-ML-Lab/llm-continual-learning-survey",
+   "commit": "2e2b02dee332bba57dfcc101b3abffe6f62011d2"
+  },
+  {
+   "name": "WooooDyy_LLM-Agent-Paper-List",
+   "dir": "WooooDyy_LLM-Agent-Paper-List",
+   "repo": "https://github.com/WooooDyy/LLM-Agent-Paper-List",
+   "commit": "b26a57a4703659b096bc4af12f51692d7b359e24"
+  },
+  {
+   "name": "Xnhyacinth_Awesome-LLM-Long-Context-Modeling",
+   "dir": "Xnhyacinth_Awesome-LLM-Long-Context-Modeling",
+   "repo": "https://github.com/Xnhyacinth/Awesome-LLM-Long-Context-Modeling",
+   "commit": "c3b9ed7059db9d279966818dbca8484a8da02f8f"
+  },
+  {
+   "name": "atfortes_Awesome-LLM-Reasoning",
+   "dir": "atfortes_Awesome-LLM-Reasoning",
+   "repo": "https://github.com/atfortes/Awesome-LLM-Reasoning",
+   "commit": "e01b133c3063bbd1ff2681591ba00b8f1730016a"
+  },
+  {
+   "name": "cmhungsteve_Awesome-Transformer-Attention",
+   "dir": "cmhungsteve_Awesome-Transformer-Attention",
+   "repo": "https://github.com/cmhungsteve/Awesome-Transformer-Attention",
+   "commit": "0653f4a10231dd2be1f96e781e73f1554233d1fc"
+  },
+  {
+   "name": "dqxiu_ICL_PaperList",
+   "dir": "dqxiu_ICL_PaperList",
+   "repo": "https://github.com/dqxiu/ICL_PaperList",
+   "commit": "3cd268ab9fc48c76ca3a01b10bb51d481a5f55a0"
+  },
+  {
+   "name": "hymie122_RAG-Survey",
+   "dir": "hymie122_RAG-Survey",
+   "repo": "https://github.com/hymie122/RAG-Survey",
+   "commit": "feb4dfa59ff8f9a8522fc8dfda77e4d6ea0fbe5f"
+  },
+  {
+   "name": "iwangjian_Paper-Reading",
+   "dir": "iwangjian_Paper-Reading",
+   "repo": "https://github.com/iwangjian/Paper-Reading",
+   "commit": "85d3a17f9b0cfd20d22a75b1cb6b76980a8d723c"
+  },
+  {
+   "name": "jxzhangjhu_Awesome-LLM-RAG",
+   "dir": "jxzhangjhu_Awesome-LLM-RAG",
+   "repo": "https://github.com/jxzhangjhu/Awesome-LLM-RAG",
+   "commit": "1a760e5a3d63987802684f7667e5593a5c7ce817"
+  },
+  {
+   "name": "luo-junyu_Awesome-Agent-Papers",
+   "dir": "luo-junyu_Awesome-Agent-Papers",
+   "repo": "https://github.com/luo-junyu/Awesome-Agent-Papers",
+   "commit": "55afd290783f7e96b3e7d1d66b528fb9e0d8df4c"
+  },
+  {
+   "name": "pillowsofwind_Knowledge-Conflicts-Survey",
+   "dir": "pillowsofwind_Knowledge-Conflicts-Survey",
+   "repo": "https://github.com/pillowsofwind/Knowledge-Conflicts-Survey",
+   "commit": "90ce8569055a523034c62d7ed849b49d85d42607"
+  },
+  {
+   "name": "teacherpeterpan_self-correction-llm-papers",
+   "dir": "teacherpeterpan_self-correction-llm-papers",
+   "repo": "https://github.com/teacherpeterpan/self-correction-llm-papers",
+   "commit": "0356bb41dfd8474d965a0aeb788ce90dbcd7b6c0"
+  },
+  {
+   "name": "thunlp_DeltaPapers",
+   "dir": "thunlp_DeltaPapers",
+   "repo": "https://github.com/thunlp/DeltaPapers",
+   "commit": "df1f6be5364dd311bf77eb9306698eec35927280"
+  },
+  {
+   "name": "thunlp_KRLPapers",
+   "dir": "thunlp_KRLPapers",
+   "repo": "https://github.com/thunlp/KRLPapers",
+   "commit": "dfa17b8e5d3827108de96f465d06dc97913108fc"
+  },
+  {
+   "name": "thunlp_LegalPapers",
+   "dir": "thunlp_LegalPapers",
+   "repo": "https://github.com/thunlp/LegalPapers",
+   "commit": "5ee207ede9acc3da06c5bd1aeb2b11dbac82dc1f"
+  },
+  {
+   "name": "thunlp_NREPapers",
+   "dir": "thunlp_NREPapers",
+   "repo": "https://github.com/thunlp/NREPapers",
+   "commit": "2213f6635b176a8f5a086f79ab68725d68f7d38f"
+  },
+  {
+   "name": "thunlp_PLMpapers",
+   "dir": "thunlp_PLMpapers",
+   "repo": "https://github.com/thunlp/PLMpapers",
+   "commit": "0416bc36728d1315e46e5cbe5da22ab1672138c9"
+  },
+  {
+   "name": "thunlp_PromptPapers",
+   "dir": "thunlp_PromptPapers",
+   "repo": "https://github.com/thunlp/PromptPapers",
+   "commit": "1ae4bd1e3e902ba6a1cfe0e424cf1c4797aa3f23"
+  },
+  {
+   "name": "thunlp_RCPapers",
+   "dir": "thunlp_RCPapers",
+   "repo": "https://github.com/thunlp/RCPapers",
+   "commit": "180fbb5755d39a18233527d5747e8fc982041cb5"
+  },
+  {
+   "name": "thunlp_TAADpapers",
+   "dir": "thunlp_TAADpapers",
+   "repo": "https://github.com/thunlp/TAADpapers",
+   "commit": "fbd155c854088f0ca889ebbd5643da1c50c88315"
+  },
+  {
+   "name": "tongye98_Awesome-Code-Benchmark",
+   "dir": "tongye98_Awesome-Code-Benchmark",
+   "repo": "https://github.com/tongye98/Awesome-Code-Benchmark",
+   "commit": "cf177a1efc84c1286410200bcf6ec6f7ac4edef2"
+  },
+  {
+   "name": "txsun1997_LMaaS-Papers",
+   "dir": "txsun1997_LMaaS-Papers",
+   "repo": "https://github.com/txsun1997/LMaaS-Papers",
+   "commit": "b24ee6f7d82c6be11cbffc988b7e0e35d8453eb8"
+  },
+  {
+   "name": "zjunlp_Generative_KG_Construction_Papers",
+   "dir": "zjunlp_Generative_KG_Construction_Papers",
+   "repo": "https://github.com/zjunlp/Generative_KG_Construction_Papers",
+   "commit": "05467abf59ce842e519ebd2ff0687fe125ced4b5"
+  },
+  {
+   "name": "zjunlp_KnowledgeEditingPapers",
+   "dir": "zjunlp_KnowledgeEditingPapers",
+   "repo": "https://github.com/zjunlp/KnowledgeEditingPapers",
+   "commit": "a77f2a53b5e7871cf7f73aae230cff1729f2ff9f"
+  },
+  {
+   "name": "zjunlp_Prompt4ReasoningPapers",
+   "dir": "zjunlp_Prompt4ReasoningPapers",
+   "repo": "https://github.com/zjunlp/Prompt4ReasoningPapers",
+   "commit": "bd2e561a44edc5e3e4bbd49807c85716a5ac2f93"
+  }
+ ],
+ "anthology": {
+  "repo": "https://github.com/acl-org/acl-anthology",
+  "commit": "f188191a2d2007f9a78039eb687c99f5f693e9ca",
+  "path": "data/xml"
+ }
+}

@@ -1,0 +1,24 @@
+Fresh-copy reproduction, 2026-11-14T07:12:21Z
+1) bash scripts/fetch_data.sh /tmp/raw2   (re-cloned ACL Anthology + 34 lists at pinned commits; 1m08s)
+2) bash scripts/run_all.sh /tmp/raw2      (53.6 s on 2 CPU cores)
+IDENTICAL results/numbers.json
+IDENTICAL results/mechanism.json
+IDENTICAL results/table_main_test.csv
+IDENTICAL results/table_cutoff_robustness.csv
+IDENTICAL results/table_condensed.csv
+IDENTICAL results/tuning_grid.csv
+IDENTICAL results/selected_h.json
+IDENTICAL data/relevance.csv
+Only differences in paper/generated/numbers.tex: latency macros (wall-clock timing varies run to run):
+65,69c65,69
+< \newcommand{\LatBM}{8.9}
+< \newcommand{\LatDec}{12.2}
+< \newcommand{\LatTF}{19.4}
+< \newcommand{\LatRec}{18.4}
+< \newcommand{\LatDF}{8.8}
+---
+> \newcommand{\LatBM}{9.4}
+> \newcommand{\LatDec}{13.0}
+> \newcommand{\LatTF}{19.1}
+> \newcommand{\LatRec}{19.6}
+> \newcommand{\LatDF}{9.1}

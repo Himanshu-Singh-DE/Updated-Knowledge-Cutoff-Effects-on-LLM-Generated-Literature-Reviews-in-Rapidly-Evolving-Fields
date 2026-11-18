@@ -1,0 +1,45 @@
+query q06: continual learning for large language models; relevant = 64
+
+--- BM25 top-20: relevant=5  post-2023-07 share=0.75
+ 1  13.909 2024-08-01     Non-compositional Expression Generation and its Continual Learning
+ 2  13.630 2025-12-01     Continual Learning in Large Language Models: Foundations to Frontiers
+ 3  13.134 2024-11-01     SEEKR: Selective Attention-Guided Knowledge Retention for Continual Le
+ 4  12.929 2022-12-01 REL Fine-tuned Language Models are Continual Learners
+ 5  12.897 2025-11-01     Empowering Math Problem Generation and Reasoning for Large Language Mo
+ 6  12.807 2024-06-01 REL InsCL: A Data-efficient Continual Learning Paradigm for Fine-tuning La
+ 7  12.795 2023-12-01     Non-compositional Expression Generation Based on Curriculum Learning a
+ 8  12.667 2025-01-01     Rethinking Long Context Generation from the Continual Learning Perspec
+ 9  12.656 2023-12-01 REL Orthogonal Subspace Learning for Language Model Continual Learning
+10  12.507 2024-05-01     Continual Reinforcement Learning for Controlled Text Generation
+11  12.380 2021-06-01     Continual Learning for Text Classification with Information Disentangl
+12  12.368 2024-11-01     Boosting Large Language Models with Continual Learning for Aspect-base
+13  12.362 2022-12-01 REL Continual Training of Language Models for Few-Shot Learning
+14  12.343 2022-10-01     Dynamic Dialogue Policy for Continual Reinforcement Learning
+15  12.321 2024-07-01     Exploring Continual Learning of Compositional Generalization in NLI
+16  12.260 2022-12-01     Continual Learning for Natural Language Generations with Transformer C
+17  12.195 2025-07-01     Continual Gradient Low-Rank Projection Fine-Tuning for LLMs
+18  12.182 2025-01-01     In-context Continual Learning Assisted by an External Continual Learne
+19  12.116 2025-07-01     SEE: Continual Fine-tuning with Sequential Ensemble of Experts
+20  12.113 2025-11-01 REL Continual Learning of Large Language Models
+
+--- BM25+Decay(h=96) top-20: relevant=2  post-2023-07 share=1.00
+ 1  13.630 2025-12-01     Continual Learning in Large Language Models: Foundations to Frontiers
+ 2  12.804 2025-11-01     Empowering Math Problem Generation and Reasoning for Large Language Mo
+ 3  12.392 2024-08-01     Non-compositional Expression Generation and its Continual Learning
+ 4  12.025 2025-11-01 REL Continual Learning of Large Language Models
+ 5  12.004 2025-11-01     Merge then Realign: Simple and Effective Modality-Incremental Continua
+ 6  11.957 2024-11-01     SEEKR: Selective Attention-Guided Knowledge Retention for Continual Le
+ 7  11.762 2025-07-01     Continual Gradient Low-Rank Projection Fine-Tuning for LLMs
+ 8  11.700 2025-01-01     Rethinking Long Context Generation from the Continual Learning Perspec
+ 9  11.686 2025-07-01     SEE: Continual Fine-tuning with Sequential Ensemble of Experts
+10  11.533 2025-11-01     CurLL: A Developmental Framework to Evaluate Continual Learning in Lan
+11  11.384 2025-07-01     Recurrent Knowledge Identification and Fusion for Language Model Conti
+12  11.361 2025-07-01     TiC-LM: A Web-Scale Benchmark for Time-Continual LLM Pretraining
+13  11.315 2025-11-01     DACP: Domain-Adaptive Continual Pre-Training of Large Language Models 
+14  11.292 2025-07-01     COPR: Continual Human Preference Learning via Optimal Policy Regulariz
+15  11.260 2024-11-01     Boosting Large Language Models with Continual Learning for Aspect-base
+16  11.252 2025-01-01     In-context Continual Learning Assisted by an External Continual Learne
+17  11.246 2024-06-01 REL InsCL: A Data-efficient Continual Learning Paradigm for Fine-tuning La
+18  11.112 2025-11-01     AIMMerging: Adaptive Iterative Model Merging Using Training Trajectori
+19  11.099 2025-11-01     RECALL: REpresentation-aligned Catastrophic-forgetting ALLeviation via
+20  11.022 2025-08-01     InstructionCP: A Simple yet Effective Approach for Transferring Large 

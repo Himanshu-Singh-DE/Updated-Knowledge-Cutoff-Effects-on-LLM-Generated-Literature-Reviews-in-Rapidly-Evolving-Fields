@@ -1,0 +1,493 @@
+{
+ "note": "Query texts hand-written (AI-drafted, to be reviewed by the student) BEFORE any retrieval run. section_regex is a case-insensitive regex on the heading path; file_contains filters the markdown file path.",
+ "queries": [
+  {
+   "query_id": "q01",
+   "query": "knowledge editing for large language models",
+   "lists": [
+    "zjunlp_KnowledgeEditingPapers"
+   ],
+   "file_contains": "",
+   "section_regex": ""
+  },
+  {
+   "query_id": "q02",
+   "query": "evaluating hallucination in large language models",
+   "lists": [
+    "HillZhang1999_llm-hallucination-survey"
+   ],
+   "file_contains": "",
+   "section_regex": "Evaluation of LLM Hallucination"
+  },
+  {
+   "query_id": "q03",
+   "query": "mitigating hallucination in large language models",
+   "lists": [
+    "HillZhang1999_llm-hallucination-survey"
+   ],
+   "file_contains": "",
+   "section_regex": "Mitigation of LLM Hallucination"
+  },
+  {
+   "query_id": "q04",
+   "query": "sources and causes of hallucination in large language models",
+   "lists": [
+    "HillZhang1999_llm-hallucination-survey"
+   ],
+   "file_contains": "",
+   "section_regex": "Source of LLM Hallucination"
+  },
+  {
+   "query_id": "q05",
+   "query": "evaluation of large language models",
+   "lists": [
+    "MLGroupJLU_LLM-eval-survey"
+   ],
+   "file_contains": "",
+   "section_regex": ""
+  },
+  {
+   "query_id": "q06",
+   "query": "continual learning for large language models",
+   "lists": [
+    "Wang-ML-Lab_llm-continual-learning-survey"
+   ],
+   "file_contains": "",
+   "section_regex": ""
+  },
+  {
+   "query_id": "q07",
+   "query": "attribution and citation generation in large language models",
+   "lists": [
+    "HITsz-TMG_awesome-llm-attributions"
+   ],
+   "file_contains": "",
+   "section_regex": ""
+  },
+  {
+   "query_id": "q08",
+   "query": "large language models for scientific discovery",
+   "lists": [
+    "HKUST-KnowComp_Awesome-LLM-Scientific-Discovery"
+   ],
+   "file_contains": "",
+   "section_regex": ""
+  },
+  {
+   "query_id": "q09",
+   "query": "reasoning with language model prompting",
+   "lists": [
+    "zjunlp_Prompt4ReasoningPapers"
+   ],
+   "file_contains": "",
+   "section_regex": ""
+  },
+  {
+   "query_id": "q10",
+   "query": "reasoning in large language models",
+   "lists": [
+    "atfortes_Awesome-LLM-Reasoning"
+   ],
+   "file_contains": "",
+   "section_regex": ""
+  },
+  {
+   "query_id": "q11",
+   "query": "chain-of-thought prompting",
+   "lists": [
+    "Timothyxxx_Chain-of-ThoughtsPapers"
+   ],
+   "file_contains": "",
+   "section_regex": ""
+  },
+  {
+   "query_id": "q12",
+   "query": "in-context learning",
+   "lists": [
+    "dqxiu_ICL_PaperList"
+   ],
+   "file_contains": "",
+   "section_regex": ""
+  },
+  {
+   "query_id": "q13",
+   "query": "instruction tuning for language models",
+   "lists": [
+    "SinclairCoder_Instruction-Tuning-Papers"
+   ],
+   "file_contains": "",
+   "section_regex": ""
+  },
+  {
+   "query_id": "q14",
+   "query": "self-correction of large language models",
+   "lists": [
+    "teacherpeterpan_self-correction-llm-papers"
+   ],
+   "file_contains": "",
+   "section_regex": ""
+  },
+  {
+   "query_id": "q15",
+   "query": "knowledge conflicts in large language models",
+   "lists": [
+    "pillowsofwind_Knowledge-Conflicts-Survey"
+   ],
+   "file_contains": "",
+   "section_regex": ""
+  },
+  {
+   "query_id": "q16",
+   "query": "large language model based agents",
+   "lists": [
+    "WooooDyy_LLM-Agent-Paper-List",
+    "luo-junyu_Awesome-Agent-Papers"
+   ],
+   "file_contains": "",
+   "section_regex": ""
+  },
+  {
+   "query_id": "q18",
+   "query": "code benchmarks for large language models",
+   "lists": [
+    "tongye98_Awesome-Code-Benchmark"
+   ],
+   "file_contains": "",
+   "section_regex": ""
+  },
+  {
+   "query_id": "q19",
+   "query": "multimodal large language models",
+   "lists": [
+    "BradyFU_Awesome-Multimodal-Large-Language-Models"
+   ],
+   "file_contains": "",
+   "section_regex": ""
+  },
+  {
+   "query_id": "q20",
+   "query": "retrieval-augmented generation methods",
+   "lists": [
+    "hymie122_RAG-Survey",
+    "jxzhangjhu_Awesome-LLM-RAG"
+   ],
+   "file_contains": "",
+   "section_regex": "Methods Taxonomy|Awesome-LLM-RAG|LLM-RAG"
+  },
+  {
+   "query_id": "q21",
+   "query": "retrieval-augmented generation for code",
+   "lists": [
+    "hymie122_RAG-Survey"
+   ],
+   "file_contains": "",
+   "section_regex": "RAG for Code"
+  },
+  {
+   "query_id": "q22",
+   "query": "retrieval-augmented generation for knowledge-intensive tasks",
+   "lists": [
+    "hymie122_RAG-Survey"
+   ],
+   "file_contains": "",
+   "section_regex": "RAG for Knowledge"
+  },
+  {
+   "query_id": "q23",
+   "query": "retrieval-augmented text generation",
+   "lists": [
+    "hymie122_RAG-Survey"
+   ],
+   "file_contains": "",
+   "section_regex": "RAG for Text"
+  },
+  {
+   "query_id": "q24",
+   "query": "long-context benchmarks for large language models",
+   "lists": [
+    "Xnhyacinth_Awesome-LLM-Long-Context-Modeling"
+   ],
+   "file_contains": "18-benchmarks",
+   "section_regex": ""
+  },
+  {
+   "query_id": "q25",
+   "query": "KV cache compression for long-context inference",
+   "lists": [
+    "Xnhyacinth_Awesome-LLM-Long-Context-Modeling"
+   ],
+   "file_contains": "03-kv-cache",
+   "section_regex": ""
+  },
+  {
+   "query_id": "q26",
+   "query": "prompt and context compression for long inputs",
+   "lists": [
+    "Xnhyacinth_Awesome-LLM-Long-Context-Modeling"
+   ],
+   "file_contains": "11-context-compression",
+   "section_regex": ""
+  },
+  {
+   "query_id": "q27",
+   "query": "position encoding and length extrapolation",
+   "lists": [
+    "Xnhyacinth_Awesome-LLM-Long-Context-Modeling"
+   ],
+   "file_contains": "06-position-encoding",
+   "section_regex": ""
+  },
+  {
+   "query_id": "q28",
+   "query": "efficient long chain-of-thought reasoning",
+   "lists": [
+    "Xnhyacinth_Awesome-LLM-Long-Context-Modeling"
+   ],
+   "file_contains": "13-long-reasoning",
+   "section_regex": ""
+  },
+  {
+   "query_id": "q29",
+   "query": "efficient attention for long sequences",
+   "lists": [
+    "Xnhyacinth_Awesome-LLM-Long-Context-Modeling"
+   ],
+   "file_contains": "02-efficient-attention",
+   "section_regex": ""
+  },
+  {
+   "query_id": "q30",
+   "query": "long-context continual pretraining and fine-tuning",
+   "lists": [
+    "Xnhyacinth_Awesome-LLM-Long-Context-Modeling"
+   ],
+   "file_contains": "07-long-context-training",
+   "section_regex": ""
+  },
+  {
+   "query_id": "q31",
+   "query": "language model as a service and black-box tuning",
+   "lists": [
+    "txsun1997_LMaaS-Papers"
+   ],
+   "file_contains": "",
+   "section_regex": ""
+  },
+  {
+   "query_id": "q32",
+   "query": "visual question answering",
+   "lists": [
+    "cmhungsteve_Awesome-Transformer-Attention"
+   ],
+   "file_contains": "README_multimodal",
+   "section_regex": "Visual Question Answering"
+  },
+  {
+   "query_id": "q33",
+   "query": "image captioning",
+   "lists": [
+    "cmhungsteve_Awesome-Transformer-Attention"
+   ],
+   "file_contains": "README_multimodal",
+   "section_regex": "Visual Captioning"
+  },
+  {
+   "query_id": "q34",
+   "query": "vision-language representation learning",
+   "lists": [
+    "cmhungsteve_Awesome-Transformer-Attention"
+   ],
+   "file_contains": "README_multimodal",
+   "section_regex": "Multi-Modal Representation Learning"
+  },
+  {
+   "query_id": "q35",
+   "query": "knowledge-grounded dialogue",
+   "lists": [
+    "iwangjian_Paper-Reading"
+   ],
+   "file_contains": "",
+   "section_regex": "Knowledge-grounded Dialogue"
+  },
+  {
+   "query_id": "q36",
+   "query": "dialogue evaluation",
+   "lists": [
+    "iwangjian_Paper-Reading"
+   ],
+   "file_contains": "",
+   "section_regex": "Dialogue Evaluation"
+  },
+  {
+   "query_id": "q37",
+   "query": "empathetic and emotional support dialogue",
+   "lists": [
+    "iwangjian_Paper-Reading"
+   ],
+   "file_contains": "",
+   "section_regex": "Emotional Dialogue"
+  },
+  {
+   "query_id": "q38",
+   "query": "persona-based personalized dialogue",
+   "lists": [
+    "iwangjian_Paper-Reading"
+   ],
+   "file_contains": "",
+   "section_regex": "Personalized Dialogue"
+  },
+  {
+   "query_id": "q39",
+   "query": "task-oriented dialogue systems",
+   "lists": [
+    "iwangjian_Paper-Reading"
+   ],
+   "file_contains": "",
+   "section_regex": "Task-oriented Dialogue"
+  },
+  {
+   "query_id": "q40",
+   "query": "open-domain dialogue generation",
+   "lists": [
+    "iwangjian_Paper-Reading"
+   ],
+   "file_contains": "",
+   "section_regex": "Open-domain Dialogue"
+  },
+  {
+   "query_id": "q41",
+   "query": "conversational recommender systems",
+   "lists": [
+    "iwangjian_Paper-Reading"
+   ],
+   "file_contains": "",
+   "section_regex": "Recommendation Dialogue and CRS"
+  },
+  {
+   "query_id": "q42",
+   "query": "multimodal dialogue grounded in vision and embodiment",
+   "lists": [
+    "iwangjian_Paper-Reading"
+   ],
+   "file_contains": "",
+   "section_regex": "Multimodal Dialogue"
+  },
+  {
+   "query_id": "q43",
+   "query": "proactive and target-oriented dialogue",
+   "lists": [
+    "iwangjian_Paper-Reading"
+   ],
+   "file_contains": "",
+   "section_regex": "Proactive Dialogue"
+  },
+  {
+   "query_id": "q44",
+   "query": "decoding algorithms for text generation",
+   "lists": [
+    "iwangjian_Paper-Reading"
+   ],
+   "file_contains": "",
+   "section_regex": "Decoding Algorithms"
+  },
+  {
+   "query_id": "q45",
+   "query": "neural machine translation",
+   "lists": [
+    "THUNLP-MT_MT-Reading-List"
+   ],
+   "file_contains": "",
+   "section_regex": ""
+  },
+  {
+   "query_id": "q46",
+   "query": "pre-trained language models",
+   "lists": [
+    "thunlp_PLMpapers"
+   ],
+   "file_contains": "",
+   "section_regex": ""
+  },
+  {
+   "query_id": "q47",
+   "query": "textual adversarial attack and defense",
+   "lists": [
+    "thunlp_TAADpapers"
+   ],
+   "file_contains": "",
+   "section_regex": ""
+  },
+  {
+   "query_id": "q48",
+   "query": "event extraction",
+   "lists": [
+    "BaptisteBlouin_EventExtractionPapers"
+   ],
+   "file_contains": "",
+   "section_regex": ""
+  },
+  {
+   "query_id": "q49",
+   "query": "neural relation extraction",
+   "lists": [
+    "thunlp_NREPapers"
+   ],
+   "file_contains": "",
+   "section_regex": ""
+  },
+  {
+   "query_id": "q50",
+   "query": "machine reading comprehension",
+   "lists": [
+    "thunlp_RCPapers"
+   ],
+   "file_contains": "",
+   "section_regex": ""
+  },
+  {
+   "query_id": "q51",
+   "query": "legal artificial intelligence",
+   "lists": [
+    "thunlp_LegalPapers"
+   ],
+   "file_contains": "",
+   "section_regex": ""
+  },
+  {
+   "query_id": "q52",
+   "query": "generative knowledge graph construction",
+   "lists": [
+    "zjunlp_Generative_KG_Construction_Papers"
+   ],
+   "file_contains": "",
+   "section_regex": ""
+  },
+  {
+   "query_id": "q53",
+   "query": "parameter-efficient fine-tuning and delta tuning",
+   "lists": [
+    "thunlp_DeltaPapers"
+   ],
+   "file_contains": "",
+   "section_regex": ""
+  },
+  {
+   "query_id": "q54",
+   "query": "prompt-based learning and prompt tuning",
+   "lists": [
+    "thunlp_PromptPapers"
+   ],
+   "file_contains": "",
+   "section_regex": ""
+  },
+  {
+   "query_id": "q55",
+   "query": "knowledge representation learning",
+   "lists": [
+    "thunlp_KRLPapers"
+   ],
+   "file_contains": "",
+   "section_regex": ""
+  }
+ ]
+}

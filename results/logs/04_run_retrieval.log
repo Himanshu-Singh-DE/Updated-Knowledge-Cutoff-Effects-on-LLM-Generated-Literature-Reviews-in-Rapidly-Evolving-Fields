@@ -1,0 +1,14 @@
+BM25                         done
+TFIDF                        done
+RecencyOnly                  done
+BM25+Decay(h=3)              done
+BM25+Decay(h=6)              done
+BM25+Decay(h=12)             done
+BM25+Decay(h=24)             done
+BM25+Decay(h=48)             done
+BM25+Decay(h=96)             done
+BM25+Decay(h=inf)            done
+DateFilter(T=2023-07-01)     done
+DateFilter(T=2022-07-01)     done
+DateFilter(T=2024-07-01)     done
+rows 70200

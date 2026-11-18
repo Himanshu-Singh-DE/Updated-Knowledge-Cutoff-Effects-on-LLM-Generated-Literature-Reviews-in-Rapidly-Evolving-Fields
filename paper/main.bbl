@@ -1,0 +1,361 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{23}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{} and \showURL{}.  The latter does
+%%% not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showURL}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showURL #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+\makeatletter
+\@ifundefined{NAT@parse@date}{}{\let\NAT@parse@date@orig\NAT@parse@date}
+\@ifundefined{NAT@parse@date}{}{\def\NAT@parse@date#1#2#3#4#5#6@@{\NAT@parse@date@orig#1#2#3#4#5#6@@\def\NAT@tempyear{0000}\def\NAT@tempexlab{{?}}\ifx\NAT@year\NAT@tempyear\ifx\NAT@exlab\NAT@tempexlab\def\NAT@date{[n.\,d.]}\else\edef\NAT@date{[n.\,d.]\NAT@exlab}\fi\fi}}
+\makeatother
+
+\bibitem[{ACL Anthology contributors}(2026)]%
+        {aclanthology}
+\bibfield{author}{\bibinfo{person}{{ACL Anthology contributors}}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{{ACL Anthology} metadata repository}.
+\newblock
+  \bibinfo{howpublished}{\url{https://github.com/acl-org/acl-anthology},
+  data/xml at commit f188191a2d2007f9a78039eb687c99f5f693e9ca}.
+\newblock
+\newblock
+\shownote{Accessed 14 November 2026}.
+
+
+\bibitem[Agrawal et~al\mbox{.}(2024)]%
+        {agrawal2024references}
+\bibfield{author}{\bibinfo{person}{Ayush Agrawal}, \bibinfo{person}{Mirac
+  Suzgun}, \bibinfo{person}{Lester Mackey}, {and} \bibinfo{person}{Adam~Tauman
+  Kalai}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Do Language Models Know When They're Hallucinating
+  References?}. In \bibinfo{booktitle}{\emph{Findings of the Association for
+  Computational Linguistics: EACL 2024}}.
+\newblock
+\newblock
+\shownote{arXiv:2305.18248}.
+
+
+\bibitem[Asai et~al\mbox{.}(2026)]%
+        {asai2026openscholar}
+\bibfield{author}{\bibinfo{person}{Akari Asai}, \bibinfo{person}{Jacqueline
+  He}, \bibinfo{person}{Rulin Shao}, \bibinfo{person}{Weijia Shi},
+  \bibinfo{person}{Amanpreet Singh}, \bibinfo{person}{Joseph~Chee Chang},
+  \bibinfo{person}{Kyle Lo}, \bibinfo{person}{Luca Soldaini},
+  \bibinfo{person}{Sergey Feldman}, \bibinfo{person}{Mike D'Arcy},
+  \bibinfo{person}{David Wadden}, \bibinfo{person}{Matt Latzke},
+  \bibinfo{person}{Jenna Sparks}, \bibinfo{person}{Jena~D. Hwang},
+  \bibinfo{person}{Varsha Kishore}, \bibinfo{person}{Minyang Tian},
+  \bibinfo{person}{Pan Ji}, \bibinfo{person}{Shengyan Liu},
+  \bibinfo{person}{Hao Tong}, \bibinfo{person}{Bohao Wu},
+  \bibinfo{person}{Yanyu Xiong}, \bibinfo{person}{Luke Zettlemoyer},
+  \bibinfo{person}{Graham Neubig}, \bibinfo{person}{Daniel~S. Weld}, {and}
+  \bibinfo{person}{Hannaneh Hajishirzi}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{Synthesizing Scientific Literature with
+  Retrieval-Augmented Language Models}.
+\newblock \bibinfo{journal}{\emph{Nature}} (\bibinfo{year}{2026}).
+\newblock
+\href{https://doi.org/10.1038/s41586-025-10072-4}{doi:\nolinkurl{10.1038/s41586-025-10072-4}}
+\newblock
+\shownote{Preprint: arXiv:2411.14199 (OpenScholar)}.
+
+
+\bibitem[Bornmann and Mutz(2015)]%
+        {bornmann2015growth}
+\bibfield{author}{\bibinfo{person}{Lutz Bornmann} {and}
+  \bibinfo{person}{R{\"u}diger Mutz}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Growth Rates of Modern Science: A Bibliometric
+  Analysis Based on the Number of Publications and Cited References}.
+\newblock \bibinfo{journal}{\emph{Journal of the Association for Information
+  Science and Technology}} \bibinfo{volume}{66}, \bibinfo{number}{11}
+  (\bibinfo{year}{2015}), \bibinfo{pages}{2215--2222}.
+\newblock
+\href{https://doi.org/10.1002/asi.23329}{doi:\nolinkurl{10.1002/asi.23329}}
+
+
+\bibitem[Buckley and Voorhees(2004)]%
+        {buckley2004incomplete}
+\bibfield{author}{\bibinfo{person}{Chris Buckley} {and}
+  \bibinfo{person}{Ellen~M. Voorhees}.} \bibinfo{year}{2004}\natexlab{}.
+\newblock \showarticletitle{Retrieval Evaluation with Incomplete Information}.
+  In \bibinfo{booktitle}{\emph{Proceedings of the 27th Annual International ACM
+  SIGIR Conference on Research and Development in Information Retrieval}}.
+  \bibinfo{publisher}{ACM}, \bibinfo{pages}{25--32}.
+\newblock
+\href{https://doi.org/10.1145/1008992.1009000}{doi:\nolinkurl{10.1145/1008992.1009000}}
+
+
+\bibitem[Campos et~al\mbox{.}(2014)]%
+        {campos2014survey}
+\bibfield{author}{\bibinfo{person}{Ricardo Campos}, \bibinfo{person}{Ga{\"e}l
+  Dias}, \bibinfo{person}{Al{\'i}pio~M. Jorge}, {and} \bibinfo{person}{Adam
+  Jatowt}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Survey of Temporal Information Retrieval and
+  Related Applications}.
+\newblock \bibinfo{journal}{\emph{Comput. Surveys}} \bibinfo{volume}{47},
+  \bibinfo{number}{2}, Article \bibinfo{articleno}{15} (\bibinfo{year}{2014}).
+\newblock
+\href{https://doi.org/10.1145/2619088}{doi:\nolinkurl{10.1145/2619088}}
+
+
+\bibitem[Chelli et~al\mbox{.}(2024)]%
+        {chelli2024hallucination}
+\bibfield{author}{\bibinfo{person}{Mika{\"e}l Chelli}, \bibinfo{person}{Jules
+  Descamps}, \bibinfo{person}{Vincent Lavou{\'e}}, \bibinfo{person}{Christophe
+  Trojani}, \bibinfo{person}{Michel Azar}, \bibinfo{person}{Marcel Deckert},
+  \bibinfo{person}{Jean-Luc Raynier}, \bibinfo{person}{Gilles Clowez},
+  \bibinfo{person}{Pascal Boileau}, {and} \bibinfo{person}{Caroline
+  Ruetsch-Chelli}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Hallucination Rates and Reference Accuracy of
+  {ChatGPT} and {Bard} for Systematic Reviews: Comparative Analysis}.
+\newblock \bibinfo{journal}{\emph{Journal of Medical Internet Research}}
+  \bibinfo{volume}{26} (\bibinfo{year}{2024}), \bibinfo{pages}{e53164}.
+\newblock
+\href{https://doi.org/10.2196/53164}{doi:\nolinkurl{10.2196/53164}}
+
+
+\bibitem[Cheng et~al\mbox{.}(2024)]%
+        {cheng2024dated}
+\bibfield{author}{\bibinfo{person}{Jeffrey Cheng}, \bibinfo{person}{Marc
+  Marone}, \bibinfo{person}{Orion Weller}, \bibinfo{person}{Dawn Lawrie},
+  \bibinfo{person}{Daniel Khashabi}, {and} \bibinfo{person}{Benjamin~Van
+  Durme}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Dated Data: Tracing Knowledge Cutoffs in Large
+  Language Models}. In \bibinfo{booktitle}{\emph{Proceedings of the First
+  Conference on Language Modeling (COLM 2024)}}.
+\newblock
+\href{https://doi.org/10.48550/arXiv.2403.12958}{doi:\nolinkurl{10.48550/arXiv.2403.12958}}
+\newblock
+\shownote{arXiv:2403.12958}.
+
+
+\bibitem[Efron and Tibshirani(1993)]%
+        {efron1993bootstrap}
+\bibfield{author}{\bibinfo{person}{Bradley Efron} {and}
+  \bibinfo{person}{Robert~J. Tibshirani}.} \bibinfo{year}{1993}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{An Introduction to the Bootstrap}}.
+\newblock \bibinfo{publisher}{Chapman \& Hall}.
+\newblock
+
+
+\bibitem[Gao et~al\mbox{.}(2023)]%
+        {gao2023ragsurvey}
+\bibfield{author}{\bibinfo{person}{Yunfan Gao}, \bibinfo{person}{Yun Xiong},
+  \bibinfo{person}{Xinyu Gao}, \bibinfo{person}{Kangxiang Jia},
+  \bibinfo{person}{Jinliu Pan}, \bibinfo{person}{Yuxi Bi}, \bibinfo{person}{Yi
+  Dai}, \bibinfo{person}{Jiawei Sun}, \bibinfo{person}{Meng Wang}, {and}
+  \bibinfo{person}{Haofen Wang}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{Retrieval-Augmented Generation for Large Language
+  Models: A Survey}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2312.10997}.
+\newblock
+\href{https://doi.org/10.48550/arXiv.2312.10997}{doi:\nolinkurl{10.48550/arXiv.2312.10997}}
+
+
+\bibitem[Kasai et~al\mbox{.}(2023)]%
+        {kasai2023realtimeqa}
+\bibfield{author}{\bibinfo{person}{Jungo Kasai}, \bibinfo{person}{Keisuke
+  Sakaguchi}, \bibinfo{person}{Yoichi Takahashi}, \bibinfo{person}{Ronan~Le
+  Bras}, \bibinfo{person}{Akari Asai}, \bibinfo{person}{Xinyan Yu},
+  \bibinfo{person}{Dragomir Radev}, \bibinfo{person}{Noah~A. Smith},
+  \bibinfo{person}{Yejin Choi}, {and} \bibinfo{person}{Kentaro Inui}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{{RealTime QA}: What's the Answer Right Now?}. In
+  \bibinfo{booktitle}{\emph{Advances in Neural Information Processing Systems
+  36 (NeurIPS 2023), Datasets and Benchmarks Track}}.
+\newblock
+\href{https://doi.org/10.48550/arXiv.2207.13332}{doi:\nolinkurl{10.48550/arXiv.2207.13332}}
+
+
+\bibitem[Lewis et~al\mbox{.}(2020)]%
+        {lewis2020rag}
+\bibfield{author}{\bibinfo{person}{Patrick Lewis}, \bibinfo{person}{Ethan
+  Perez}, \bibinfo{person}{Aleksandra Piktus}, \bibinfo{person}{Fabio Petroni},
+  \bibinfo{person}{Vladimir Karpukhin}, \bibinfo{person}{Naman Goyal},
+  \bibinfo{person}{Heinrich K{\"u}ttler}, \bibinfo{person}{Mike Lewis},
+  \bibinfo{person}{Wen tau Yih}, \bibinfo{person}{Tim Rockt{\"a}schel},
+  \bibinfo{person}{Sebastian Riedel}, {and} \bibinfo{person}{Douwe Kiela}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Retrieval-Augmented Generation for
+  Knowledge-Intensive {NLP} Tasks}. In \bibinfo{booktitle}{\emph{Advances in
+  Neural Information Processing Systems 33 (NeurIPS 2020)}}.
+  \bibinfo{pages}{9459--9474}.
+\newblock
+\href{https://doi.org/10.48550/arXiv.2005.11401}{doi:\nolinkurl{10.48550/arXiv.2005.11401}}
+
+
+\bibitem[Li and Croft(2003)]%
+        {li2003timebased}
+\bibfield{author}{\bibinfo{person}{Xiaoyan Li} {and} \bibinfo{person}{W.~Bruce
+  Croft}.} \bibinfo{year}{2003}\natexlab{}.
+\newblock \showarticletitle{Time-based Language Models}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 12th ACM International
+  Conference on Information and Knowledge Management (CIKM)}}.
+  \bibinfo{publisher}{ACM}, \bibinfo{pages}{469--475}.
+\newblock
+\href{https://doi.org/10.1145/956863.956951}{doi:\nolinkurl{10.1145/956863.956951}}
+
+
+\bibitem[Pedregosa et~al\mbox{.}(2011)]%
+        {pedregosa2011sklearn}
+\bibfield{author}{\bibinfo{person}{Fabian Pedregosa} {et~al\mbox{.}}}
+  \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Scikit-learn: Machine Learning in {P}ython}.
+\newblock \bibinfo{journal}{\emph{Journal of Machine Learning Research}}
+  \bibinfo{volume}{12} (\bibinfo{year}{2011}), \bibinfo{pages}{2825--2830}.
+\newblock
+
+
+\bibitem[Robertson and Zaragoza(2009)]%
+        {robertson2009bm25}
+\bibfield{author}{\bibinfo{person}{Stephen Robertson} {and}
+  \bibinfo{person}{Hugo Zaragoza}.} \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{The Probabilistic Relevance Framework: {BM25} and
+  Beyond}.
+\newblock \bibinfo{journal}{\emph{Foundations and Trends in Information
+  Retrieval}} \bibinfo{volume}{3}, \bibinfo{number}{4} (\bibinfo{year}{2009}),
+  \bibinfo{pages}{333--389}.
+\newblock
+\href{https://doi.org/10.1561/1500000019}{doi:\nolinkurl{10.1561/1500000019}}
+
+
+\bibitem[Sakai(2007)]%
+        {sakai2007bpref}
+\bibfield{author}{\bibinfo{person}{Tetsuya Sakai}.}
+  \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{Alternatives to Bpref}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 30th Annual International ACM
+  SIGIR Conference on Research and Development in Information Retrieval}}.
+  \bibinfo{publisher}{ACM}, \bibinfo{pages}{71--78}.
+\newblock
+\href{https://doi.org/10.1145/1277741.1277756}{doi:\nolinkurl{10.1145/1277741.1277756}}
+
+
+\bibitem[Shao et~al\mbox{.}(2024)]%
+        {shao2024storm}
+\bibfield{author}{\bibinfo{person}{Yijia Shao}, \bibinfo{person}{Yucheng
+  Jiang}, \bibinfo{person}{Theodore~A. Kanell}, \bibinfo{person}{Peter Xu},
+  \bibinfo{person}{Omar Khattab}, {and} \bibinfo{person}{Monica~S. Lam}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Assisting in Writing {W}ikipedia-like Articles From
+  Scratch with Large Language Models}. In \bibinfo{booktitle}{\emph{Proceedings
+  of the 2024 Conference of the North American Chapter of the Association for
+  Computational Linguistics: Human Language Technologies (Volume 1: Long
+  Papers)}}. \bibinfo{pages}{6252--6278}.
+\newblock
+\href{https://doi.org/10.18653/v1/2024.naacl-long.347}{doi:\nolinkurl{10.18653/v1/2024.naacl-long.347}}
+
+
+\bibitem[Singh(2026)]%
+        {ownreview2026}
+\bibfield{author}{\bibinfo{person}{Himanshu Singh}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{Knowledge Cutoff Effects on {LLM}-Generated
+  Literature Reviews in Rapidly Evolving Fields: A Survey}.
+\newblock
+\newblock
+\shownote{Mid-semester review paper (MDE\_015), AI Tools for Research.
+  Unpublished}.
+
+
+\bibitem[Skarlinski et~al\mbox{.}(2024)]%
+        {skarlinski2024paperqa2}
+\bibfield{author}{\bibinfo{person}{Michael~D. Skarlinski}, \bibinfo{person}{Sam
+  Cox}, \bibinfo{person}{Jon~M. Laurent}, \bibinfo{person}{James~D. Braza},
+  \bibinfo{person}{Michaela Hinks}, \bibinfo{person}{Michael~J. Hammerling},
+  \bibinfo{person}{Manvitha Ponnapati}, \bibinfo{person}{Samuel~G. Rodriques},
+  {and} \bibinfo{person}{Andrew~D. White}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{Language Agents Achieve Superhuman Synthesis of
+  Scientific Knowledge}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2409.13740}.
+\newblock
+\href{https://doi.org/10.48550/arXiv.2409.13740}{doi:\nolinkurl{10.48550/arXiv.2409.13740}}
+
+
+\bibitem[Vu et~al\mbox{.}(2023)]%
+        {vu2023freshllms}
+\bibfield{author}{\bibinfo{person}{Tu Vu}, \bibinfo{person}{Mohit Iyyer},
+  \bibinfo{person}{Xuezhi Wang}, \bibinfo{person}{Noah Constant},
+  \bibinfo{person}{Jerry Wei}, \bibinfo{person}{Jason Wei},
+  \bibinfo{person}{Chris Tar}, \bibinfo{person}{Yun-Hsuan Sung},
+  \bibinfo{person}{Denny Zhou}, \bibinfo{person}{Quoc Le}, {and}
+  \bibinfo{person}{Thang Luong}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{{FreshLLMs}: Refreshing Large Language Models with
+  Search Engine Augmentation}.
+\newblock \bibinfo{howpublished}{arXiv preprint arXiv:2310.03214}.
+\newblock
+\href{https://doi.org/10.48550/arXiv.2310.03214}{doi:\nolinkurl{10.48550/arXiv.2310.03214}}
+
+
+\bibitem[Walters and Wilder(2023)]%
+        {walters2023fabrication}
+\bibfield{author}{\bibinfo{person}{William~H. Walters} {and}
+  \bibinfo{person}{Esther~Isabelle Wilder}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Fabrication and Errors in the Bibliographic
+  Citations Generated by {ChatGPT}}.
+\newblock \bibinfo{journal}{\emph{Scientific Reports}}  \bibinfo{volume}{13}
+  (\bibinfo{year}{2023}), \bibinfo{pages}{14045}.
+\newblock
+\href{https://doi.org/10.1038/s41598-023-41032-5}{doi:\nolinkurl{10.1038/s41598-023-41032-5}}
+
+
+\bibitem[Wang et~al\mbox{.}(2024)]%
+        {wang2024autosurvey}
+\bibfield{author}{\bibinfo{person}{Yidong Wang}, \bibinfo{person}{Qi Guo},
+  \bibinfo{person}{Wenjin Yao}, \bibinfo{person}{Hongbo Zhang},
+  \bibinfo{person}{Xin Zhang}, \bibinfo{person}{Zhen Wu},
+  \bibinfo{person}{Meishan Zhang}, \bibinfo{person}{Xinyu Dai},
+  \bibinfo{person}{Min Zhang}, \bibinfo{person}{Qingsong Wen},
+  \bibinfo{person}{Wei Ye}, \bibinfo{person}{Shikun Zhang}, {and}
+  \bibinfo{person}{Yue Zhang}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{{AutoSurvey}: Large Language Models Can
+  Automatically Write Surveys}. In \bibinfo{booktitle}{\emph{Advances in Neural
+  Information Processing Systems 37 (NeurIPS 2024)}}.
+\newblock
+\href{https://doi.org/10.52202/079017-3655}{doi:\nolinkurl{10.52202/079017-3655}}
+
+
+\bibitem[Yang et~al\mbox{.}(2017)]%
+        {yang2017anserini}
+\bibfield{author}{\bibinfo{person}{Peilin Yang}, \bibinfo{person}{Hui Fang},
+  {and} \bibinfo{person}{Jimmy Lin}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Anserini: Enabling the Use of {Lucene} for
+  Information Retrieval Research}. In \bibinfo{booktitle}{\emph{Proceedings of
+  the 40th International ACM SIGIR Conference on Research and Development in
+  Information Retrieval}}. \bibinfo{publisher}{ACM},
+  \bibinfo{pages}{1253--1256}.
+\newblock
+\href{https://doi.org/10.1145/3077136.3080721}{doi:\nolinkurl{10.1145/3077136.3080721}}
+
+
+\end{thebibliography}

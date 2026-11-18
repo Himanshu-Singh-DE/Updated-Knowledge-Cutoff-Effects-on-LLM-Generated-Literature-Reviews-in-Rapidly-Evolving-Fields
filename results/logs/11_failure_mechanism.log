@@ -1,0 +1,46 @@
+{
+ "median_score_ratio_rank20_to_rank1": 0.8752300338328636,
+ "median_score_ratio_rank100_to_rank1": 0.728918543220048,
+ "median_score_ratio_rank1000_to_rank1": 0.4100435330256236,
+ "decay_factor_29months_h12": 0.18728838460958522,
+ "decay_factor_29months_h96": 0.8110803043884242,
+ "papers_per_year": {
+  "2018": 3536,
+  "2019": 4376,
+  "2020": 6677,
+  "2021": 6023,
+  "2022": 8147,
+  "2023": 8017,
+  "2024": 11153,
+  "2025": 13948
+ },
+ "growth_2025_over_2018": 3.9445701357466065,
+ "share_2025_in_corpus": 0.22541493608287408,
+ "share_2025_in_decay12_top20": 0.9981481481481481,
+ "share_2025_in_bm25_top20": 0.3509259259259259,
+ "share_2025_in_relevant": 0.09848156182212581
+}
+
+--- q01 BM25
+ 1 2024-08-01 REL WilKE: Wise-Layer Knowledge Editor for Lifelong Knowledge Editing
+ 2 2024-08-01 REL Cross-Lingual Knowledge Editing in Large Language Models
+ 3 2024-08-01 REL EasyEdit: An Easy-to-use Knowledge Editing Framework for Large Language Models
+ 4 2025-07-01     RuleEdit: Towards Rule-Level Knowledge Generalization to Mitigate Over-Editing in Lar
+ 5 2024-11-01     Editing the Mind of Giants: An In-Depth Exploration of Pitfalls of Knowledge Editing 
+ 6 2025-01-01 REL MLaKE: Multilingual Knowledge Editing Benchmark for Large Language Models
+ 7 2025-07-01     AdaEdit: Advancing Continuous Knowledge Editing For Large Language Models
+ 8 2024-11-01 REL Knowledge Graph Enhanced Large Language Model Editing
+ 9 2024-08-01     DistillMIKE: Editing Distillation of Massive In-Context Knowledge Editing in Large La
+10 2025-11-01     KELE: Residual Knowledge Erasure for Enhanced Multi-hop Reasoning in Knowledge Editin
+
+--- q01 BM25+Decay(h=12)
+ 1 2025-11-01     KELE: Residual Knowledge Erasure for Enhanced Multi-hop Reasoning in Knowledge Editin
+ 2 2025-11-01     LyapLock: Bounded Knowledge Preservation in Sequential Large Language Model Editing
+ 3 2025-11-01     GeoEdit: Geometric Knowledge Editing for Large Language Models
+ 4 2025-11-01     Forget for Get: A Lightweight Two-phase Gradient Method for Knowledge Editing in Larg
+ 5 2025-11-01     M2Edit: Locate and Edit Multi-Granularity Knowledge in Multimodal Large Language Mode
+ 6 2025-11-01     STEAM: A Semantic-Level Knowledge Editing Framework for Large Language Models
+ 7 2025-11-01     Can We Edit LLMs for Long-Tail Biomedical Knowledge?
+ 8 2025-11-01     Understanding the Side Effects of Rank-One Knowledge Editing
+ 9 2025-11-01     KoLEG: On-the-Fly Korean Legal Knowledge Editing with Continuous Retrieval
+10 2025-11-01     MicroEdit: Neuron-level Knowledge Disentanglement and Localization in Lifelong Model 

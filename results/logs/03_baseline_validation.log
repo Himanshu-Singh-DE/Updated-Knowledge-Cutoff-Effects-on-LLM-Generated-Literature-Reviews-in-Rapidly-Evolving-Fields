@@ -1,0 +1,43 @@
+== 1. toy corpus
+sparse [0.493374 0.       0.606456] loop [0.493374 0.       0.606456] hand d1 0.493374
+decay check: d3 (2025) vs d1 (2020) with h=12, t_ref=2025-12-01
+['d3', 'd1'] [0.321259 0.008167]
+DateFilter T=2023-07-01 -> ['d3']
+
+== 2. real corpus: sparse vs loop
+index built in 6.8s; docs=61877 vocab=88447 avgdl=163.19
+'knowledge editing for large language models': max|diff|=3.55e-15  top1 sparse=2024.findings-acl.207 loop=2024.findings-acl.207
+'neural machine translation': max|diff|=0.00e+00  top1 sparse=2020.icon-demos.3 loop=2020.icon-demos.3
+'event extraction': max|diff|=0.00e+00  top1 sparse=2023.findings-eacl.29 loop=2023.findings-eacl.29
+
+== 3. known-item test (exact title as query), 200 random papers, seed 2026
+rank-1: 194/200  in top-10: 200/200
+TFIDF known-item sample: 2020.smm4h-1.13 -> 2020.smm4h-1.13
+
+== 4. metric toy case
+{'P': 0.5, 'R_all': 0.666667, 'R_post': 0.5, 'R_pre': 1.0, 'nDCG': 0.703918}
+
+== 5. label spot-check (20 random matches)
+matched lines: 2752  titles mapping to >1 Anthology id: 12
+[thunlp_TAADpapers] 2020.aacl-main.79 2020-12-01 | From Hero to Zéroe: A Benchmark of Low-Level Adversarial Attacks
+[Xnhyacinth_Awesome-LLM-Long-] 2025.knowledgenlp-1.29 2025-05-01 | DocBench: A Benchmark for Evaluating LLM-based Document Reading Systems
+[THUNLP-MT_MT-Reading-List] D18-1049 2018-10-01 | Improving the Transformer Translation Model with Document-Level Context
+[THUNLP-MT_MT-Reading-List] 2020.acl-main.170 2020-07-01 | BPE-Dropout: Simple and Effective Subword Regularization
+[hymie122_RAG-Survey] 2021.acl-long.315 2021-08-01 | Dual Reader-Parser on Hybrid Textual and Tabular Evidence for Open Domain Questi
+[HITsz-TMG_awesome-llm-attrib] 2023.findings-emnlp.967 2023-12-01 | 1-PAGER: One Pass Answer Generation and Evidence Retrieval
+[iwangjian_Paper-Reading] C18-1317 2018-08-01 | Modeling Multi-turn Conversation with Deep Utterance Aggregation
+[jxzhangjhu_Awesome-LLM-RAG] 2023.tacl-1.75 2023-07-01 | In-Context Retrieval-Augmented Language Models
+[HillZhang1999_llm-hallucinat] 2024.acl-long.586 2024-08-01 | The Dawn After the Dark: An Empirical Study on Factuality Hallucination in Large
+[THUNLP-MT_MT-Reading-List] D19-1079 2019-11-01 | Multi-agent Learning for Neural Machine Translation
+[THUNLP-MT_MT-Reading-List] N19-1407 2019-06-01 | Convolutional Self-Attention Networks
+[cmhungsteve_Awesome-Transfor] 2024.naacl-long.162 2024-06-01 | Visually-Aware Context Modeling for News Image Captioning
+[THUNLP-MT_MT-Reading-List] 2020.acl-main.324 2020-07-01 | Knowledge Distillation for Multilingual Unsupervised Neural Machine Translation
+[cmhungsteve_Awesome-Transfor] 2023.acl-long.31 2023-07-01 | World-to-Words: Grounded Open Vocabulary Acquisition through Fast Mapping in Vis
+[SinclairCoder_Instruction-Tu] 2023.acl-long.806 2023-07-01 | Unnatural Instructions: Tuning Language Models with (Almost) No Human Labor
+[iwangjian_Paper-Reading] 2020.findings-emnlp.11 2020-11-01 | Difference-aware Knowledge Selection for Knowledge-grounded Conversation Generat
+[iwangjian_Paper-Reading] 2024.tacl-1.50 2024-07-01 | Decision-Oriented Dialogue for Human-AI Collaboration
+[hymie122_RAG-Survey] 2022.findings-naacl.115 2022-07-01 | UniK-QA: Unified Representations of Structured and Unstructured Knowledge for Op
+[thunlp_TAADpapers] 2020.coling-main.76 2020-12-01 | Don’t take “nswvtnvakgxpm” for an answer –The surprising vulnerability of automa
+[BaptisteBlouin_EventExtracti] 2020.acl-main.681 2020-07-01 | Towards Open Domain Event Trigger Identification using Adversarial Domain Adapta
+
+ALL BASELINE CHECKS PASSED
